@@ -22,9 +22,9 @@ def guess_number_game():
                 print(f"\nCongratulations! You guessed it in {attempts} attempts!")
                 return
             elif guess < secret_number:
-                print("Too low! Try again.")
+                print("Too low! Give another TRY. U can DO IT.")
             else:
-                print("Too high! Try again.")
+                print("Too high! Give another TRY. U can DO IT..")
                 
             print(f"Attempts remaining: {max_attempts - attempts}")
             
