@@ -1,5 +1,5 @@
 def is_prime(n):
-    """Check if a number is prime."""
+    "Check if a number is prime."
     if n < 2:
         return False
     for i in range(2, int(n ** 0.5) + 1):
@@ -8,7 +8,7 @@ def is_prime(n):
     return True
 
 def sum_of_primes(start, end):
-    """Calculate sum of prime numbers in given range."""
+    "Calculate sum of prime numbers in given range."
     try:
         start, end = int(start), int(end)
         if start > end:
@@ -19,7 +19,7 @@ def sum_of_primes(start, end):
         return "Error: Please enter valid integers"
 
 def length_converter(value, unit):
-    """Convert between meters and feet."""
+    "Convert between meters and feet."
     try:
         value = float(value)
         if unit.upper() == 'M':
@@ -32,7 +32,7 @@ def length_converter(value, unit):
         return "Error: Please enter a valid number"
 
 def count_consonants(text):
-    """Count consonants in a string."""
+    "Count consonants in a string."
     if not isinstance(text, str):
         return "Error: Please enter a valid string"
     consonants = "bcdfghjklmnpqrstvwxyz"
@@ -40,7 +40,7 @@ def count_consonants(text):
     return f"Number of consonants: {count}"
 
 def min_max_finder():
-    """Find minimum and maximum numbers from user input."""
+    "Find minimum and maximum numbers from user input."
     try:
         count = int(input("How many numbers would you like to enter? "))
         if count <= 0:
@@ -56,14 +56,14 @@ def min_max_finder():
         return "Error: Please enter valid numbers"
 
 def palindrome_checker(text):
-    """Check if a string is a palindrome."""
+    "Check if a string is a palindrome."
     if not isinstance(text, str):
         return "Error: Please enter a valid string"
     cleaned_text = ''.join(char.lower() for char in text if char.isalnum())
     return f"Is palindrome: {cleaned_text == cleaned_text[::-1]}"
 
 def word_counter(filename):
-    """Count specific words in a text file."""
+    "Count specific words in a text file."
     target_words = ["the", "was", "and"]
     try:
         with open(filename, 'r') as file:
