@@ -60,7 +60,7 @@ def palindrome_checker(text):
     if not isinstance(text, str):
         return "Error: Please enter a valid string"
     cleaned_text = ''.join(char.lower() for char in text if char.isalnum())
-    return f"Is palindrome: {cleaned_text == cleaned_text[::-1]}"
+    return f"Grt Job It's palindrome: {cleaned_text == cleaned_text[::-1]}"
 
 def word_counter(filename):
     "Count specific words in a text file."
