@@ -42,7 +42,7 @@ def count_consonants(text):
 def min_max_finder():
     "Find minimum and maximum numbers from user input."
     try:
-        count = int(input("How many numbers would you like to enter? "))
+        count = int(input("How many numbers would you like to ENTER? "))
         if count <= 0:
             return "Error: Please enter a positive number"
         
