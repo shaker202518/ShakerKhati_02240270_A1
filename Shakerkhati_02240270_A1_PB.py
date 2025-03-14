@@ -34,7 +34,7 @@ def guess_number_game():
     print(f"\nGame Over! The number was {secret_number}")
 
 def rock_paper_scissors():
-    print("\n=== Rock Paper Scissors Game ===")
+    print("WELCOME TO - Rock Paper Scissors Game" )
     choices = {
         'r': 'rock',
         'p': 'paper',
