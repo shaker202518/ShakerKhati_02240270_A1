@@ -72,7 +72,7 @@ def rock_paper_scissors():
             print("Computer wins!")
             computer_score += 1
             
-        if input("\nPlay again? (y/n): ").lower() != 'y':
+        if input("\n do you Want to Play again? (y/n): ").lower() != 'y':
             print(f"\nFinal Score - You: {player_score} Computer: {computer_score}")
             if player_score > computer_score:
                 print("Congratulations! You won the series!")
