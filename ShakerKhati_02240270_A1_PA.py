@@ -56,7 +56,8 @@ def min_max_finder():
         return "Error: Please enter valid numbers"
 
 def palindrome_checker(text):
-    n
+    
+
     "Check if a string is a palindrome."
     if not isinstance(text, str):
         return "Error: Please enter a valid string"
