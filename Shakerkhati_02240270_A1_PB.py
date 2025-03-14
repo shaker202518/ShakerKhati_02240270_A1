@@ -62,7 +62,7 @@ def rock_paper_scissors():
         print(f"You chose: {player_choice}")
         
         if player_choice == computer_choice:
-            print("It's a tie!")
+            print("It's a DRAW!")
         elif (player_choice == 'rock' and computer_choice == 'scissors') or \
              (player_choice == 'paper' and computer_choice == 'rock') or \
              (player_choice == 'scissors' and computer_choice == 'paper'):
