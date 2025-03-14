@@ -56,11 +56,18 @@ def min_max_finder():
         return "Error: Please enter valid numbers"
 
 def palindrome_checker(text):
+    n
     "Check if a string is a palindrome."
     if not isinstance(text, str):
         return "Error: Please enter a valid string"
+    
     cleaned_text = ''.join(char.lower() for char in text if char.isalnum())
-    return f"Grt Job It's palindrome: {cleaned_text == cleaned_text[::-1]}"
+    is_palindrome = cleaned_text == cleaned_text[::-1]
+    
+    if is_palindrome:
+        return "Great Job! It's a palindrome."
+    else:
+        return "No, it's not a palindrome."
 
 def word_counter(filename):
     "Count specific words in a text file."
