@@ -6,8 +6,8 @@ def guess_number_game():
     attempts = 0
     max_attempts = 10
     
-    print("I'm thinking of a number between 1 and 100.")
-    print(f"You have {max_attempts} attempts to guess it.")
+    print("I'm thinking of a number between 1 - 100.")
+    print(f"You have {max_attempts} attempts to guess it.TRY YOUR LUCKMY FRIEND")
     
     while attempts < max_attempts:
         try:
@@ -15,7 +15,7 @@ def guess_number_game():
             attempts += 1
             
             if guess < 1 or guess > 100:
-                print("Please enter a number between 1 and 100.")
+                print("Please enter a number between 1 - 100.")
                 continue
                 
             if guess == secret_number:
